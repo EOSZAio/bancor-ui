@@ -94,16 +94,14 @@
                 <td class="text-center" v-text="index + 1"></td>
                 <td class="text-left font-w700" style="width: 180px">
                   <img
-                      class="img-avatar img-avatar-thumb img-avatar32 mr-3"
-                      :src="token.img"
-                      alt="Token Logo"
-                    />
-                    {{ token.symbol }}
+                    class="img-avatar img-avatar-thumb img-avatar32 mr-3"
+                    :src="token.img"
+                    alt="Token Logo"
+                  />
+                  {{ token.symbol }}
                 </td>
                 <td>
-                  <span class="text-muted font-size-sm">{{
-                      token.name
-                    }}</span>
+                  <span class="text-muted font-size-sm">{{ token.name }}</span>
                 </td>
                 <td class="text-center font-w700">
                   {{ token.contract }}

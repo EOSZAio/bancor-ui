@@ -194,7 +194,7 @@ export function bancorMemoLiquidity(
  * // Relay Contract has 100 BLU tokens and 100 RED tokens and someone sends it 1 blue token
  * bancorQuickConvert(100, 100, 1) // 0.99
  *
- * 
+ *
  */
 export function bancorQuickConvert(
   balanceFrom: number,
